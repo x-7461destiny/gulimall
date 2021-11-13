@@ -20,7 +20,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  *      	2.配置Mybatis-Plus
  *      		1).使用@MapperScan
  *      		2).告诉Mybatis-Plus,sql映射文件位置
+ *  2、逻辑删除
  */
+
 
 @EnableDiscoveryClient
 @MapperScan("com.atguigu.gulimall.product.dao")

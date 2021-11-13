@@ -2,7 +2,7 @@ spring:
   datasource:
     username: root
     password: root
-    url: jdbc:mysql://172.16.33.13:3306/gulimall_ums?serverTimezone=GMT%2B8&characterEncoding=utf-8
+    url: jdbc:mysql://172.16.33.5:3306/gulimall_ums?serverTimezone=GMT%2B8&characterEncoding=utf-8
     driver-class-name: com.mysql.cj.jdbc.Driver
   cloud:
     nacos:

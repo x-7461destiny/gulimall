@@ -8,7 +8,7 @@ spring:
     #MySQL配置
     driver-class-name: com.mysql.cj.jdbc.Driver #  不知道为什么有个cj  我先删除 似乎报错
 #    driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://172.16.33.13:3306/gulimall_wms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://172.16.33.5:3306/gulimall_wms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
     password: root
     #oracle配置
