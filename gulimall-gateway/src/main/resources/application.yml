@@ -18,6 +18,12 @@ spring:
           filters:
               - RewritePath=/api/(?<segment>.*),/$\{segment}
 
+        - id: third_party_route
+          uri: lb://gulimall-third-party
+          predicates:
+            - Path=/api/thirdparty/**
+          filters:
+            - RewritePath=/api/thirdparty/(?<segment>.*),/$\{segment}
         #        api/product/category/list/tree -->  http://localhost:10000/product/category/list/tree
 #        这里需要先路由product 否则renren-fast直接路由走了
 

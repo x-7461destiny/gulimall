@@ -1,5 +1,9 @@
 package com.atguigu.gulimall.product;
 
+//import com.aliyun.oss.OSS;
+//import com.aliyun.oss.OSSClient;
+//import com.aliyun.oss.OSSClientBuilder;
+//import com.aliyun.oss.model.PutObjectRequest;
 import com.atguigu.gulimall.product.entity.BrandEntity;
 import com.atguigu.gulimall.product.service.BrandService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
@@ -9,6 +13,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import javax.annotation.Resource;
+import java.io.File;
 import java.util.List;
 
 @RunWith(SpringRunner.class)
